@@ -188,3 +188,5 @@ function bytebuffer.double_to_lo(d)
 
 	return (lo % 2 ^ 32) - 2 ^ 31
 end
+
+return bytebuffer
